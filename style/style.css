@@ -1,0 +1,82 @@
+/* universal */
+.font-bebas-neue{
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.font-roboto{
+    font-family: "Roboto", serif;
+}
+
+.nav-font-color{
+    color: rgb(60, 60, 60);
+}
+.title{
+    font-family: "Bebas Neue";
+    color: rgb(54, 57, 88);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "roboto";
+    width: 1400px;
+    margin: 40px auto;
+}
+
+.btn{
+    border-radius: 6px;
+    background: linear-gradient(0.00deg, rgb(255, 128, 99) -28.333%,rgb(244, 96, 96) 95.833%);
+    font-weight: 500;
+    padding: 18px 56px;
+    border: none;
+    color: white;
+}
+
+/* navbar  */
+nav li{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline;
+}
+nav > ul{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+/* banner  */
+.banner img{
+    width: 100%;
+}
+.banner{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,1fr) ;
+    gap: 100px;
+}
+.box2, .box3{
+    grid-row: span 2;
+}
+.box1 > h1{
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+.box1 span {
+    color: rgb(255, 131, 103);
+}
+
+.box4 h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.banner p{
+    color: rgb(62, 62, 62);
+    margin: 40px 0px;
+}
