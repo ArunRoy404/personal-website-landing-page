@@ -178,3 +178,59 @@ footer section{
 footer img{
     width: 35px;
 }
+
+.hide{
+    display: none;
+}
+
+
+/* responsive for mobile  */
+@media screen and (max-width: 575px) {
+    header,footer,main{
+        padding: opx 20px;
+        margin: 0px auto;
+        width: calc(100% - 40px);
+    }
+    nav > ul{
+        margin-top: 30px;
+        justify-content: space-around;
+    }
+    .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner p{
+        margin: 20px 0px;
+    }
+    .box2,.box3{
+        grid-row: span 1;
+    }
+    .box2{
+        display: none;
+    }
+    .latest-work{
+        padding: 50px 0px;
+        border-radius: 12px;
+    }
+    .work-container{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .work{
+        padding: 20px;
+        width: calc(100% - 60px);
+    }
+    .footer-banner{
+        flex-direction: column;
+        width: calc(100% - 30px);
+        background-position: center;
+        background-size: auto;
+        border-radius: 20px;
+    }
+    .footer-banner h1{
+        font-size: 50px;
+    }
+    .mail h2{
+        font-size: 25px;
+    }
+}
